@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/trip">
+
+    <ImageButton
+        android:id="@+id/googleMap"
+        android:layout_width="45dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="153dp"
+        android:layout_marginEnd="53dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:cropToPadding="true"
+        android:rotation="100"
+        android:saveEnabled="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/map" />
+
+    <ImageButton
+        android:id="@+id/todoList"
+        android:layout_width="48dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="0dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/list"
+        tools:padding="0dp" />
+
+    <ImageButton
+        android:id="@+id/music"
+        android:layout_width="32dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="142dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/music"
+        tools:padding="0dp" />
+
+
+
+
+
+
+
+</RelativeLayout>
